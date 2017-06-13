@@ -31,7 +31,7 @@ def get_mileage_by_type(imei,time_epoch,mileage_type):
 
     if mileage_type == "business":
         return mileage_business
-    
+
     elif mileage_type == "personal":
         return mileage_total - mileage_business
     return mileage_total

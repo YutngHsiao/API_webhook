@@ -10,7 +10,7 @@ from flask import Flask
 from flask import request
 from flask import make_response
 
-from onlicar_sdk import *
+from sdk import *
 
 app = Flask(__name__)
 
